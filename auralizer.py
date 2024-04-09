@@ -87,7 +87,7 @@ def import_file(csv_file_path, base_freq, multiplier):
 
 if __name__ == "__main__":
     args = docopt(__doc__)
-    print(json.dumps(args))
+    # print(json.dumps(args))
     inputs = args["<sources>"]
 
     ch1 = 400
